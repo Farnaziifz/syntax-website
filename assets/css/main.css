@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  /* @font-face {
+    font-family: 'dana-extra';
+    src: url('/assets/fonts/DanaFaNum-ExtraBold.ttf');
+  } */
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+:root {
+  --toastify-font-family: 'dana-medium';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.my-shadow {
+  box-shadow: 0 0 6px #c2c2c2;
+}
